@@ -9,7 +9,7 @@ const printCompilationMessage = require('./compilation.config.js');
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:3000/",
+    publicPath: "https://remote-mf-es-3kbb.vercel.app/",
   },
 
   resolve: {
