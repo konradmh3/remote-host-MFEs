@@ -8,9 +8,10 @@ const deps = require("./package.json").dependencies;
 const printCompilationMessage = require('./compilation.config.js');
 
 module.exports = (_, argv) => ({
-  output: {
-    publicPath: "https://remote-mf-es-3kbb.vercel.app/",
-  },
+  // output: {
+  //   // publicPath: "https://remote-mf-es-3kbb.vercel.app/",
+  //   publicPath: "http://localhost:3000/",
+  // },
 
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
